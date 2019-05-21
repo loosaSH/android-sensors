@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.loosash.learnsensors">
+
+    <application
+            android:allowBackup="false"
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme">
+        <activity android:name=".AccelerationActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".GravityActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LinearAccelerationActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".GyroscopeActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".OrientationActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".MagneticFieldActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".TemperatureActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".LightActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".PressureActivity"
+                  android:screenOrientation="portrait"/>
+        <activity android:name=".ProximityActivity"
+                  android:screenOrientation="portrait"/>
+
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
